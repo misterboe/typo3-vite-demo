@@ -1,3 +1,9 @@
 .Card {
 	border: 2px solid;
+	padding: 1rem;
+	border-radius: .5rem;
+
+	&__title {
+		margin: .5rem 0;
+	}
 }
