@@ -1,5 +1,15 @@
+{namespace my=FlorianGeierstanger\Typo3ViteDemo\Components}
+
 <f:layout name="Default" />
 <f:section name="Main">
+
+    <my:card
+        title="TYPO3"
+        link="https://typo3.org"
+        icon="typo3"
+    >
+        The professional, flexible Content Management System
+    </my:card>
 
     <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
 

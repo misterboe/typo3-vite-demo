@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7c1de82de2fb0bc1e83505cf3687a15",
+    "content-hash": "7e8b285da62354736f79432b842adb8f",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2221,6 +2221,75 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "sitegeist/fluid-components",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sitegeist/fluid-components.git",
+                "reference": "df97384e26043507abec063e25c6176ae688fedf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sitegeist/fluid-components/zipball/df97384e26043507abec063e25c6176ae688fedf",
+                "reference": "df97384e26043507abec063e25c6176ae688fedf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0",
+                "typo3/cms-core": "^10.4 || ^11.4",
+                "typo3fluid/fluid": "^2"
+            },
+            "require-dev": {
+                "editorconfig-checker/editorconfig-checker": "^10.0",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "squizlabs/php_codesniffer": "^3.0",
+                "typo3/testing-framework": "^6.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "serviceProvider": "SMS\\FluidComponents\\ServiceProvider"
+                    },
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "app-dir": ".Build",
+                    "web-dir": ".Build/Web",
+                    "extension-key": "fluid_components"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SMS\\FluidComponents\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Praetorius",
+                    "email": "praetorius@sitegeist.de"
+                }
+            ],
+            "description": "Encapsulated frontend components with Fluid's ViewHelper syntax",
+            "homepage": "https://github.com/sitegeist/fluid-components",
+            "keywords": [
+                "components",
+                "fluid",
+                "html",
+                "template",
+                "typo3",
+                "typo3-extension",
+                "typo3-fluid"
+            ],
+            "support": {
+                "issues": "https://github.com/sitegeist/fluid-components/issues",
+                "source": "https://github.com/sitegeist/fluid-components/tree/3.3.0"
+            },
+            "time": "2022-07-12T18:59:05+00:00"
         },
         {
             "name": "symfony/cache",

@@ -1,4 +1,4 @@
 import 'vite/modulepreload-polyfill';
-import './style.css';
+import './style.scss';
 
 console.log('Hello Vite');
