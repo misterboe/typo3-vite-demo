@@ -1,0 +1,7 @@
+{namespace my=FlorianGeierstanger\Typo3ViteDemo\Components}
+
+<my:card title="{data.header}" link="https://typo3.org" >
+    <f:if condition="{data.bodytext}">
+        {data.bodytext -> f:format.nl2br()}
+    </f:if>
+</my:card>

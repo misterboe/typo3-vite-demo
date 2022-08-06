@@ -1,0 +1,49 @@
+{
+    "version": "7.2.0",
+    "tables": {
+        "tt_content": {
+            "elements": {
+                "teasercards": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "header",
+                        "bodytext"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-columns",
+                    "iconOverlay": "",
+                    "key": "teasercards",
+                    "label": "TeaserCards",
+                    "labels": [
+                        "",
+                        ""
+                    ],
+                    "saveAndClose": 1,
+                    "shortLabel": "",
+                    "sorting": 0
+                }
+            },
+            "tca": {
+                "bodytext": {
+                    "bodytextTypeByElement": {
+                        "teasercards": "text"
+                    },
+                    "coreField": 1,
+                    "fullKey": "bodytext",
+                    "key": "bodytext"
+                },
+                "header": {
+                    "coreField": 1,
+                    "fullKey": "header",
+                    "key": "header",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
